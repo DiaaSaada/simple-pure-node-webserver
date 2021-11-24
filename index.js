@@ -5,10 +5,14 @@ const fs = require('fs')
 const PORT = process.env.PORT || 5000
 
 
-const load404 = () => {
+const map1 = new Map();
+
+map1.set('a', 1);
+map1.set('b', 2);
+map1.set('c', 3);
+console.log(map1.get('a'))
 
 
-};
 /**
  * check file extention then set the right content type
  * @param {*} filePath 
